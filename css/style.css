@@ -1,0 +1,154 @@
+body{
+    background: url("../img/bbgWithFlynn.png") center center fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#title{
+    align-items: center;
+    text-align: center;
+    position: relative;
+    font-size: 7vh;
+    /* padding-top: 5vh; */
+    /* padding-bottom: 10vh; */
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:1vh;
+    /* border: 0.5vh solid #8e2537d8; */
+    /* background: rgb(238,101,145);
+background: linear-gradient(167deg, rgba(238,101,145,0.7707457983193278) 16%, rgba(255,255,255,0.577468487394958) 95%); */
+background: rgb(174,61,53);
+background: linear-gradient(167deg, rgba(174,61,53,0.742734593837535) 14%, rgba(255,255,255,0.7147233893557423) 86%);
+    /* box-shadow: 0 0 2vh 0.2vh #ee6591; */
+    box-shadow: 0 0 0.9vh 0.2vh #ae3d35;
+    /* background: rgb(0,0,0); 
+     background: linear-gradient(167deg, rgba(0,0,0,0.7147233893557423) 0%, rgba(238,101,145,0.7707457983193278) 60%, rgba(255,255,255,0.577468487394958) 100%); */
+    border-radius: 25px;
+    width: 40vw;
+    font-family: 'Amatic SC', cursive;
+}
+#throw{
+    border-radius: 5px;
+    padding: 0.5vh;
+    width: 8%;
+    text-align: center;
+    font-size: 2vh;
+    height:4vh;
+    border:none;
+    box-shadow: 0 0 0.9vh 0.2vh #ae3d35;
+    /* background: rgb(238,101,145);
+    background: linear-gradient(167deg, rgba(238,101,145,0.7707457983193278) 16%, rgba(255,255,255,0.577468487394958) 95%); */
+    background: rgb(174,61,53);
+    background: linear-gradient(167deg, rgba(174,61,53,0.742734593837535) 14%, rgba(255,255,255,0.7147233893557423) 86%);
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Righteous', cursive;
+    -webkit-transition: 0.5s;
+}
+#thdiv{
+    margin:auto;
+    width:99%;
+    text-align: center;
+    bottom: 2%;
+    position: absolute;
+}
+#throw:hover{
+    cursor: pointer;
+    /* background: rgb(255,255,255);
+background: linear-gradient(167deg, rgba(255,255,255,0.577468487394958) 12%, rgba(238,101,145,0.7707457983193278) 92%); */
+;
+}
+#container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 95vw;
+    height: 25vh;
+    position: absolute;
+    bottom:1%;
+}
+.dice{
+    position: relative;
+    float: left;
+    width: 25vw;
+    padding: 10 0;
+    margin: 1vh 1vh 1vh 0;
+    text-align: center;
+    font-size: 3vh;
+    /* border: 1vh solid #d1641f; */
+    border-radius: 15px;
+}
+/* .animation{
+    height: 10vh;
+    display: none;
+    border: 1vh solid #1fa8d1;
+} */
+.adice{
+    display: inline-block;
+    /* border: #ee6591 solid 1vh; */
+    height: 10vh;
+}
+#sum1, #sum2, #sum3{
+    text-align: left;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Righteous', cursive;
+    color:white;
+}
+#playa2, #playa1, #playa3{
+    text-align: left;
+    margin-top: 0.3vh;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Righteous', cursive;
+    color:white;
+}
+.thoughts {
+    -webkit-transition: 1s;
+    display:flex;
+    background-color:#fff;
+    padding:20px;
+    border-radius:30px;
+    min-width:25vw;
+    max-width:25vw;
+    /* min-height:20vh; */
+    margin-top:5vh;
+    margin-bottom:20px;
+    margin-right:20px;
+    margin-left:20vw;
+    position:relative;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    font-size: 3.2vh;
+    font-weight: bold;
+    font-family: 'Amatic SC', cursive;
+    /* font-family: 'Righteous', cursive; */
+    
+  }
+  .thoughts:before,
+  .thoughts:after {
+    -webkit-transition: 1s;
+    content:"";
+    background-color:#fff; 
+    box-shadow: 0 0 0.9vh 0.2vh #fff;
+  
+    /* background: rgb(238,101,145);
+    background: linear-gradient(167deg, rgba(238,101,145,0.7707457983193278) 16%, rgba(255,255,255,0.577468487394958) 95%); */
+    border-radius:50%;
+    display:block;
+    position:absolute;
+    z-index:-1;
+  }
+  
+  .thoughts:after {
+    -webkit-transition: 1s;
+    
+    bottom:-10px;
+    right:26px;
+    width:30px;
+    height:30px;
+    box-shadow:2vw 0.68vw 0 0 #fff,
+                4.1vw 2vw 0 -0.26vw #fff,
+               3.125vw 1.5625vw 0 -0.52vw #fff
+    
+  }
+  #thought{
+    -webkit-transition: 1s;
+  }
